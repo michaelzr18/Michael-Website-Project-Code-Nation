@@ -1,0 +1,148 @@
+body {
+    background-image: url("fosajgd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    cursor:url("pipboy\ fallout\ green\ arrow\ cursor.cur"), auto;
+}   
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+h1 {
+    margin:125px 0px 0px 0px;
+    color: rgb(177, 236, 177);
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 36px;
+}
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+.button{
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    background-color: silver;  
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+}
+.button:hover{
+    background-color: grey;
+    color:black;
+    border: 5px solid black;
+}
+.disabled{
+    opacity:0.6;
+    cursor:not-allowed;
+}
+#link-list{
+    text-align: center;
+    font-size: large;
+}
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+#abtmepara1{
+    margin:30px 100px 0px 100px;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: green;
+    border: darkgreen;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+#abtmepara1:hover{
+    border: 2px solid black;
+    background-color: darkgreen;
+    color: lightgreen;
+    opacity: 0.5;
+}
+#abtmepara2{
+    margin:25px 100px 0px 100px;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: green;
+    border: darkgreen;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+#abtmepara2:hover{
+    border: 2px solid black;
+    background-color: darkgreen;
+    color: lightgreen;
+    opacity: 0.5;
+}
+
+#abtmepara3{
+    margin:25px 100px 0px 100px;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: green;
+    border: darkgreen;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+#abtmepara3:hover{
+    border: 2px solid black;
+    background-color: darkgreen;
+    color: lightgreen;
+    opacity: 0.5;
+}
+.navbar{
+    overflow:hidden;
+    background-color: #333;
+    font-family: arial;
+    border-radius: 5px;
+    opacity: 0.8;
+
+}
+.navbar a{
+    float:left;
+    font-size:16px;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+.dropdown{
+    float:left;
+    overflow:hidden;
+}
+.dropdown .dropbtn{
+    font-size:16px;
+    border:none;
+    outline:none;
+    color:white;
+    padding:14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin:0;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.dropdown-content a{
+    float:none;
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
